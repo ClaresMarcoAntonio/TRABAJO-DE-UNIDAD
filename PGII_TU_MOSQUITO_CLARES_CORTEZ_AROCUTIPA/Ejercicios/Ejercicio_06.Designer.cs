@@ -72,7 +72,7 @@
             // 
             // btnCargar
             // 
-            this.btnCargar.Location = new System.Drawing.Point(346, 103);
+            this.btnCargar.Location = new System.Drawing.Point(356, 93);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(130, 23);
             this.btnCargar.TabIndex = 59;
@@ -102,20 +102,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(244, 103);
+            this.label1.Location = new System.Drawing.Point(253, 98);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 62;
-            this.label1.Text = "label1";
+            this.label1.Text = "Datos";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(253, 181);
+            this.label2.Location = new System.Drawing.Point(244, 181);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(56, 13);
             this.label2.TabIndex = 63;
-            this.label2.Text = "label2";
+            this.label2.Text = "Promedios";
             // 
             // Ejercicio_06
             // 

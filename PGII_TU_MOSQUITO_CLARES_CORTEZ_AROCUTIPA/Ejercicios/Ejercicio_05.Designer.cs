@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnEjercicio1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtPractica = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,6 +38,7 @@
             this.txtTrabajos = new System.Windows.Forms.TextBox();
             this.txtExamen = new System.Windows.Forms.TextBox();
             this.lstResultados = new System.Windows.Forms.ListBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,15 +63,6 @@
             this.btnEjercicio1.UseVisualStyleBackColor = true;
             this.btnEjercicio1.Click += new System.EventHandler(this.btnEjercicio1_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(526, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 57;
-            this.label1.Text = "label1";
-            // 
             // txtPractica
             // 
             this.txtPractica.Location = new System.Drawing.Point(424, 193);
@@ -92,27 +83,30 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(299, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.Size = new System.Drawing.Size(104, 20);
             this.label2.TabIndex = 60;
             this.label2.Text = "Nota Práctica";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(299, 232);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 13);
+            this.label3.Size = new System.Drawing.Size(108, 20);
             this.label3.TabIndex = 61;
             this.label3.Text = "Nota Trabajos";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(299, 274);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 13);
+            this.label4.Size = new System.Drawing.Size(143, 20);
             this.label4.TabIndex = 62;
             this.label4.Text = "Nota Examen Final";
             // 
@@ -138,11 +132,22 @@
             this.lstResultados.Size = new System.Drawing.Size(255, 82);
             this.lstResultados.TabIndex = 65;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(289, 39);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(641, 20);
+            this.label5.TabIndex = 66;
+            this.label5.Text = "Elaborar un programa que permita calcular la calificación final de 5 estudiantes";
+            // 
             // Ejercicio_05
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(987, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.txtExamen);
             this.Controls.Add(this.txtTrabajos);
@@ -151,7 +156,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtPractica);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Ejercicio_05";
             this.Text = " ";
@@ -165,7 +169,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnEjercicio1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtPractica;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label label2;
@@ -174,5 +177,6 @@
         private System.Windows.Forms.TextBox txtTrabajos;
         private System.Windows.Forms.TextBox txtExamen;
         private System.Windows.Forms.ListBox lstResultados;
+        private System.Windows.Forms.Label label5;
     }
 }

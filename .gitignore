@@ -1,2 +1,18 @@
 # Visual Studio 2015/2017 cache/options directory
 .vs/
+# Ignorar directorios de compilación
+bin/
+obj/
+Debug/
+Release/
+# Archivos de compilación
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak

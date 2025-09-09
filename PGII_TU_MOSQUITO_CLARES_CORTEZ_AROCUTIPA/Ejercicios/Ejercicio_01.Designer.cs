@@ -39,7 +39,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnEjercicio1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -159,16 +158,6 @@
             this.label3.TabIndex = 42;
             this.label3.Text = "Simulación de operaciones bancarias con clientes y depósitos";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(781, 400);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 44;
-            this.button1.Text = "Atras";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Ejercicio_01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,7 +174,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
             this.Name = "Ejercicio_01";
             this.Text = "Ejercicio_01";
             this.panel1.ResumeLayout(false);
@@ -207,6 +195,5 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnEjercicio1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
     }
 }

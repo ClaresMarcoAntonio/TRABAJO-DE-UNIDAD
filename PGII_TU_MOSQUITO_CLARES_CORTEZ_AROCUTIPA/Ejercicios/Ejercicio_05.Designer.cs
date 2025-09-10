@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnEjercicio1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtPractica = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -63,15 +62,6 @@
             this.btnEjercicio1.Text = "Informacion del Ejercicio";
             this.btnEjercicio1.UseVisualStyleBackColor = true;
             this.btnEjercicio1.Click += new System.EventHandler(this.btnEjercicio1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(286, 385);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 57;
-            this.label1.Text = "label1";
             // 
             // txtPractica
             // 
@@ -162,7 +152,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtPractica);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "Ejercicio_05";
             this.Text = " ";
@@ -176,7 +165,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnEjercicio1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtPractica;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label label2;
